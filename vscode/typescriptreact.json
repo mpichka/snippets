@@ -1,0 +1,7 @@
+{
+    "Redux Component": {
+        "prefix": "rc!",
+        "description": "Boilerplate for components connected to redux",
+        "body": "import { connect, type ConnectedProps } from 'react-redux';\n\ntype PropsFromRedux = ConnectedProps<typeof connector>;\ntype Props = PropsFromRedux;\n\nfunction $TM_FILENAME_BASE(props: Props) {\n  const { } = props;\n\n  return <></>;\n}\n\nconst mapStateToProps = (store) => ({\n\n});\n\nconst mapDispatchToProps = (dispatch) => ({\n\n});\n\nconst connector = connect(mapStateToProps, mapDispatchToProps);\nexport default connector($TM_FILENAME_BASE);"
+    }
+}
